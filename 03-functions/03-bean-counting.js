@@ -1,7 +1,7 @@
 function countBs(string) {
     return string.split("").reduce((totalBs, currentChar) => {
         if (currentChar === "B") {
-            totalBs++
+            totalBs++;
         }
         return totalBs;
     }, 0);
@@ -11,7 +11,7 @@ function countBs(string) {
 function countChar(string, targetChar) {
     return string.split("").reduce((totalChars, currentChar) => {
         if (currentChar === targetChar) {
-            totalChars++
+            totalChars++;
         }
         return totalChars;
     }, 0);
